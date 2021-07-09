@@ -8,8 +8,8 @@ function EyesOnMe(){
         console.log('Hey! Eyes on me!')
     }
     return (
-    <button>Eyes on me</button>
+    <button onFocus={focus} onBlur={blur}>Eyes on me</button>
 
-        )}
+)}
 
 export default EyesOnMe;
